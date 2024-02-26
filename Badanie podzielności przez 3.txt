@@ -1,0 +1,49 @@
+a)
+#include <iostream>
+using namespace std;
+
+
+
+int ResztaZDzielenia(int a, int b)
+{
+return a % b;
+}
+
+
+
+int main()
+{
+int liczba;
+cout << "Podaj liczbe: "; cin >> liczba;
+cout << "Reszta z dzielenia: " << liczba;
+cout << " przez 3 wynosi: ";
+cout << ResztaZDzielenia(liczba, 3) << endl;
+
+return 0;
+}
+
+
+
+b)
+#include <iostream>
+using namespace std;
+
+
+
+int ResztaZDzielenia(int a, int b)
+{
+return a % b;
+}
+
+
+
+int main()
+{
+int liczba;
+cout << "Podaj liczbe: "; cin >> liczba;
+cout << "Reszta z dzielenia: " << liczba;
+cout << " przez 17 wynosi: ";
+cout << ResztaZDzielenia(liczba, 17) << endl;
+
+return 0;
+}
